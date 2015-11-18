@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\android\android-sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="C:\demospace\ShowPhotoDemo1\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0-6a1b05f515f56358bad81ebc3335f2cb72329e75.jar" />
+    </item>
+    <item
+        jar="C:\Users\jn-wr\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.2.4\a60a5e993c98c864010053cb901b7eab25306568\gson-2.2.4.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="a60a5e993c98c864010053cb901b7eab25306568">
+        <dex dex="C:\demospace\ShowPhotoDemo1\app\build\intermediates\pre-dexed\debug\gson-2.2.4-12a12a57b052dcd9211d7a36a90b10aff8823574.jar" />
+    </item>
+    <item
+        jar="C:\demospace\ShowPhotoDemo1\app\libs\universal-image-loader-1.9.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="296dfb44fbf31397c0306e60cb62e06ca40df07f">
+        <dex dex="C:\demospace\ShowPhotoDemo1\app\build\intermediates\pre-dexed\debug\universal-image-loader-1.9.1-f517242827b6552cf49fe19a4dac940b87991b77.jar" />
+    </item>
+
+</items>

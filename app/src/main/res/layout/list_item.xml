@@ -1,0 +1,136 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="5dp" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="6dp" >
+
+        <ImageView
+            android:id="@+id/iv_avator"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/agent_default" />
+
+        <TextView
+            android:id="@+id/tv_identity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/iv_avator"
+            android:textSize="16sp"
+            android:text="装修管家" />
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/tv_identity"
+            android:text="张三"
+            android:textColor="@color/blue123" />
+
+        <LinearLayout
+            android:id="@+id/ll_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_name"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/iv_avator"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tv_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="阿法尔去玩儿去玩儿去问"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_showorhide"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/ll_content"
+            android:layout_below="@+id/ll_content"
+            android:text="全文"
+            android:background="@drawable/advice_extend_icon"
+            android:textColor="@color/blue123"
+            android:textSize="14sp" />
+
+        <com.soufun.test.widget.MyGridView
+            android:id="@+id/gv_gridView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_showorhide"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/iv_avator"
+            android:columnWidth="90dp"
+            android:gravity="left"
+            android:horizontalSpacing="5dp"
+            android:listSelector="@color/transparent"
+            android:numColumns="3"
+            android:stretchMode="none"
+            android:verticalSpacing="5dp"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/ll_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/ll_content"
+            android:layout_below="@+id/gv_gridView"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tv_location"
+                android:textSize="12sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/location"
+                android:gravity="center_vertical"
+                android:text=" 地点"
+                android:visibility="visible" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_time"
+            android:textSize="12sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/ll_location"
+            android:layout_below="@+id/ll_location"
+            android:layout_marginTop="5dp"
+            android:text="时间" />
+
+        <Button
+            android:id="@+id/btn_progress"
+            android:layout_width="50dp"
+            android:layout_height="18dp"
+            android:layout_alignLeft="@+id/iv_avator"
+            android:layout_below="@+id/iv_avator"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/shape_progress"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textSize="10sp"
+            android:text="水电"
+            android:textColor="@color/white" />
+
+   
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="5dp" />
+
+</LinearLayout>

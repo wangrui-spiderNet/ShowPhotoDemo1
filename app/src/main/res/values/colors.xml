@@ -1,0 +1,137 @@
+<resources>
+
+    <drawable name="item_color">#2d2d2d</drawable>
+    <drawable name="shader1">#7f7f7f7f</drawable>
+    <drawable name="highlight">#Cf7f7f7f</drawable>
+    <drawable name="barbg">#ef0a4267</drawable>
+    <drawable name="trans">#00000000</drawable>
+    <drawable name="chatdivider">#ffd6dadc</drawable>
+    <drawable name="window_bg">#fff7f9fa</drawable>
+
+    <color name="gray_01new">#5b5b5b</color>
+    <color name="red_renzheng">#ef4646</color>
+    <color name="tabbg">#7f0a4267</color>
+    <color name="transparent">#00000000</color>
+    <color name="qq_green">#195C7B</color>
+    <color name="qq_gray">#52525C</color>
+    <color name="qq_green2">#092431</color>
+    <color name="splashBG">#1A3048</color>
+    <color name="qq_golden">#FFB422</color>
+    <color name="qq_red">#E83D3D</color>
+    <color name="qq_semi_transparent_white">#7FFFFFFF</color>
+    <color name="qq_current_sign_num_color">#5591af</color>
+    <color name="qq_max_sign_num_color">#a2a2a2</color>
+    <color name="item_color">#2d2d2d</color>
+    <color name="item_text_color">#FFFFFF</color>
+    <color name="item_bg_color">#FFFFFF</color>
+    <color name="skin_text_color">#FFFFFF</color>
+    <color name="gray_text">#999999</color>
+    <color name="black">#000000</color>
+    <color name="black_new">#494949</color>
+    <color name="light_black">#313232</color>
+    <color name="light_black_new">#343434</color>
+    <color name="white">#ffffff</color>
+    <color name="gray">#999999</color>
+    <color name="orange">#f07d14</color>
+    <color name="t_red">#c44710</color>
+    <color name="blue">#0000ff</color>
+    <color name="blue123">#4b95f2</color>
+    <color name="light_blue">#228ce2</color>
+    <color name="no_data">#787878</color>
+    <!-- FFB422 -->
+    <color name="transparent_background">#50000000</color>
+    <color name="transparent_background1">#db000000</color>
+    <color name="header_btn_press">#ff4a8de6</color>
+    <color name="green">#ff95c81c</color>
+    <color name="list_item_normal">#ffffffff</color>
+    <color name="list_item_selected">#ffb4dffb</color>
+    <color name="shape_bg">#ffcccccc</color>
+    <color name="shape_line">#ffcccccc</color>
+    <color name="t_orange">#ff7800</color>
+    <color name="t_gray">#ebebeb</color>
+    <color name="t_gray_cus">#DCDCDC</color>
+    <color name="t_rg">#f7f9fa</color>
+    <color name="slider_bg">#A8A9AA</color>
+    <color name="sider_text">#9e9d9d</color>
+    <color name="inputhouse_title_blue">#009CFF</color>
+    <color name="count">#0099FF</color>
+    <color name="ssp_item">#d9e1e4</color>
+    <color name="ssp_item_text">#b8cada</color>
+    <color name="top_gray_text">#ffdedede</color>
+    <color name="home_item_press">#fbf6e9</color>
+    <color name="home_content">#F1EFEF</color>
+    <color name="dividerline">#d9d9d9</color>
+    <color name="select_key_one">#888888</color>
+    <color name="select_key_one_bg">#EBEBEB</color>
+    <color name="match_cs_house_bg">#1E90FF</color>
+    <color name="customer_item">#37a6f4</color>
+    <!-- 导航栏子菜单颜色 -->
+    <color name="nav_child">#ff505050</color>
+    <!-- 上传头像 提示语半透明背景 -->
+    <color name="light_transparent_black">#77111111</color>
+    <color name="refresh_blue">#228ce2</color>
+    <color name="divider_gray">#d2d2d2</color>
+
+    <!-- 背景 -->
+    <color name="window_bg">#f9f9f9</color>
+    <!-- 聊天 -->
+    <color name="chat_record_gray">#707070</color>
+    <!-- 登陆页深蓝色背景 -->
+    <color name="deep_blue">#1597fe</color>
+    <!-- 登陆页雾霾色背景 -->
+    <color name="light_gray">#ceecff</color>
+
+    <!-- 搜索框灰底儿背景 -->
+    <color name="search_background_gray">#f4f4f4</color>
+    <!-- 登陆页按钮绿色 -->
+    <color name="login_button_light_blue">#16a0f6</color>
+    <!-- 登陆页超链接蓝色 -->
+    <color name="login_super_blue">#0080cf</color>
+    <!-- 登陆页浅蓝色字体 -->
+    <color name="login_light_blue">#1a90d9</color>
+    <!-- 登陆页深蓝色字体 -->
+    <color name="login_deep_blue">#008afd</color>
+    <!-- 完善个人信息页 提交按钮背景 -->
+    <color name="commit_button_blue">#228ce2</color>
+    <color name="Calendar_WeekBgColor">#eeeeee</color>
+    <color name="Calendar_WeekFontColor">#8C8A8C</color>
+    <color name="Calendar_DayBgColor">#ffffff</color>
+    <color name="isHoliday_BgColor">#E0E0E0</color>
+    <color name="unPresentMonth_FontColor">#8C8A8C</color>
+    <color name="isPresentMonth_FontColor">#000000</color>
+    <!-- 选中的颜色 -->
+    <color name="isToday_BgColor">#2fa0ff</color>
+    <color name="specialReminder">#FF0000</color>
+    <color name="commonReminder">#BDBAB5</color>
+
+    <!-- 城市选择页 字母浅灰色北京 -->
+    <color name="light_gray_char">#ebebeb</color>
+
+    <!-- 头部蓝色 -->
+    <color name="bluehead">#228ce2</color>
+    <!-- 投稿按钮颜色 -->
+    <color name="color_text_selected">#218DE2</color>
+    <color name="color_text_normal">#000000</color>
+    <!-- 待投稿按钮背景 -->
+    <color name="radiobutton_down">#e0301e</color>
+    <color name="radiobutton_up">#e7e7e8</color>
+    <!-- gridview中的imageview背景 -->
+    <color name="gridview_image_background">#eeeeee</color>
+    <!-- 我要装修界面 输入框提示语 颜色值 -->
+    <color name="bidding_edittext_hint_color">#DCDCDC</color>
+    <color name="blue_06">#4996f1</color>
+    <!--
+   扫一扫
+    <color name="saoma">#181818</color>
+    <color name="jiejing">#111111</color>
+   
+    <color name="result_points">#c099cc00</color>
+   <color name="viewfinder_mask">#61000000</color>
+   <color name="result_view">#b0000000</color>
+   <color name="viewfinder_laser">#ff04fd21</color>
+   <color name="viewfinder_mask_line">#ff06ccfe</color>
+   <color name="viewfinder_mask_corner">#ff068cfe</color>
+   <color name="possible_result_points">#c0ffbd21</color>
+    -->
+
+</resources>

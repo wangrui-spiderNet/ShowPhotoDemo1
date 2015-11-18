@@ -1,0 +1,14 @@
+.idea
+out
+appcompat_v7
+.gradle
+build
+bin
+**/*.iml
+local.properties
+captures
+jn_expert_android.iml
+activityAnimation
+fireWork
+sMSender
+**/*.txt
