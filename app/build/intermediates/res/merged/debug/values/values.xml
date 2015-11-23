@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/C:/demospace/ShowPhotoDemo1/app/src/main/res/values/colors.xml -->
+    <!-- From: file:/F:/demospace/ShowPhotoDemo1/app/src/main/res/values/colors.xml -->
     <eat-comment/>
     <color name="Calendar_DayBgColor">#ffffff</color>
     <color name="Calendar_WeekBgColor">#eeeeee</color>
@@ -90,11 +90,11 @@
     <color name="unPresentMonth_FontColor">#8C8A8C</color>
     <color name="white">#ffffff</color>
     <color name="window_bg">#f9f9f9</color>
-    <!-- From: file:/C:/demospace/ShowPhotoDemo1/app/src/main/res/values/dimens.xml -->
+    <!-- From: file:/F:/demospace/ShowPhotoDemo1/app/src/main/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
-    <!-- From: file:/C:/demospace/ShowPhotoDemo1/app/src/main/res/values/colors.xml -->
+    <!-- From: file:/F:/demospace/ShowPhotoDemo1/app/src/main/res/values/colors.xml -->
     <eat-comment/>
     <drawable name="barbg">#ef0a4267</drawable>
     <drawable name="chatdivider">#ffd6dadc</drawable>
@@ -103,12 +103,15 @@
     <drawable name="shader1">#7f7f7f7f</drawable>
     <drawable name="trans">#00000000</drawable>
     <drawable name="window_bg">#fff7f9fa</drawable>
-    <!-- From: file:/C:/demospace/ShowPhotoDemo1/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/F:/demospace/ShowPhotoDemo1/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="action_settings">Settings</string>
     <string name="app_name">ShowPhotoDemo</string>
     <string name="hello_world">Hello world!</string>
-    <!-- From: file:/C:/demospace/ShowPhotoDemo1/app/src/main/res/values/styles.xml -->
+    <!-- From: file:/F:/demospace/ShowPhotoDemo1/app/src/main/res/values/server_host.xml -->
+    <eat-comment/>
+    <string name="server_host">http://thoughtworks-ios.herokuapp.com</string>
+    <!-- From: file:/F:/demospace/ShowPhotoDemo1/app/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="AppBaseTheme" parent="android:Theme.Light">
         <!--

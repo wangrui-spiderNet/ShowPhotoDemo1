@@ -60,8 +60,8 @@
             android:layout_alignLeft="@+id/ll_content"
             android:layout_below="@+id/ll_content"
             android:text="全文"
-            android:background="@drawable/advice_extend_icon"
             android:textColor="@color/blue123"
+            android:visibility="invisible"
             android:textSize="14sp" />
 
         <com.soufun.test.widget.MyGridView
@@ -98,7 +98,7 @@
                 android:drawableLeft="@drawable/location"
                 android:gravity="center_vertical"
                 android:text=" 地点"
-                android:visibility="visible" />
+                android:visibility="gone" />
         </LinearLayout>
 
         <TextView
@@ -109,6 +109,7 @@
             android:layout_alignLeft="@+id/ll_location"
             android:layout_below="@+id/ll_location"
             android:layout_marginTop="5dp"
+            android:visibility="gone"
             android:text="时间" />
 
         <Button
@@ -123,9 +124,9 @@
             android:singleLine="true"
             android:textSize="10sp"
             android:text="水电"
+            android:visibility="gone"
             android:textColor="@color/white" />
 
-   
     </RelativeLayout>
 
     <View
@@ -133,4 +134,4 @@
         android:layout_height="1dp"
         android:layout_marginTop="5dp" />
 
-</LinearLayout><!-- From: file:/C:/demospace/ShowPhotoDemo1/app/src/main/res/layout/list_item.xml -->
+</LinearLayout><!-- From: file:/F:/demospace/ShowPhotoDemo1/app/src/main/res/layout/list_item.xml -->

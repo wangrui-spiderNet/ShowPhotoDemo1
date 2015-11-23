@@ -3,10 +3,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical" >
+
     <ListView
         android:id="@+id/list"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
 </LinearLayout>
-<!-- From: file:/C:/demospace/ShowPhotoDemo1/app/src/main/res/layout/activity_test_photo.xml -->
+<!-- From: file:/F:/demospace/ShowPhotoDemo1/app/src/main/res/layout/activity_test_photo.xml -->

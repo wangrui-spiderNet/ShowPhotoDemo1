@@ -5,4 +5,4 @@
     android:layout_height="90dp"
     android:scaleType="centerCrop"
     android:src="@drawable/bid_tip_bg" />
-<!-- From: file:/C:/demospace/ShowPhotoDemo1/app/src/main/res/layout/gridview_item.xml -->
+<!-- From: file:/F:/demospace/ShowPhotoDemo1/app/src/main/res/layout/gridview_item.xml -->
